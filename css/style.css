@@ -19,3 +19,12 @@
 #portfolio-header {
   text-align: center;
 }
+
+.portfolio-subheader {
+	text-align: center;
+}
+
+.portfolio-item {
+	width: 256px;
+	height: auto;
+}
