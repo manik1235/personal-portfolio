@@ -16,48 +16,82 @@
 		<title>Personal Portfolio :: Andrew Henning-Kolberg</title>
 	</head>
 	<body>
-		<div class="container-fluid a-test">
-			<h1>Hello, world!</h1>
-			<h3 class="alert-primary" role="alert">Alert! <a href="#" class="alert-link">example link</a> Alert!</h3>
-			<div class="alert alert-danger alert-dismissible fade show" role="alert">
-				<strong>Can you believe it!?</strong> I made this thing.
-				<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-					<span aria-hidden="true">&times;</span>
-				</button>
-			</div>
-			<dl>
-				<dt>Term</dt>
-				<dd>Term Definition<abbr title="World Health Organization">WHO</abbr></dd>
-			</dl>
+		<div class="container-fluid">
+		<!-- I want the nav bar to stay at the top, but no luck so far. -->
+  
+			<a name="#"></a>
 			<div id="header"</div>
 				<p>Software development. Finance. Games for kids. Automating business processes.</p>
 				<img id="header-image" src="https://placem.at/people?w=500">
 			</div>
-		</div>
-		
-		<div class="row" id="languages-interests">
-			<div class="col-md-6" id="languages">
-				<h3><li>Languages and libraries I like:</li></h3>
+
+			<div class="row" id="languages-interests">
+				<div class="col-md-6" id="languages">
+					<h3><li>Languages and libraries I like:</li></h3>
+					<ul>
+						<li>Visual Basic (.net, vba), F#, C#</li>
+						<li>Python 3</li>
+						<li>html, css, javascript</li>
+						<li>jQuery</li>
+						<li>bash</li>
+						<li>R</li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h3><li>Areas of interest:</li></h3>
+					<ul>
+						<li>Back-end development</li>
+						<li>Front-end development</li>
+						<li>Games for my kid</li>
+						<li>Automating repetative tasks</li>
+					</ul>
+				</div>
+			</div>
+			
+			
+			<a id="#a-portfolio"></a>   
+			<div>
+				<h2 id="portfolio-header">Portfolio</h2>
 				<ul>
-					<li>Visual Basic (.net, vba), F#, C#</li>
-					<li>Python 3</li>
-					<li>html, css, javascript</li>
-					<li>jQuery</li>
-					<li>bash</li>
-					<li>R</li>
+					<li><a href="https://scratch.mit.edu/studios/4478333/" target="_blank">Scratch</a></li>
+					<ul>
+						<li><a href="https://scratch.mit.edu/projects/194155624/" target="_blank">Train Game</a></li>
+						<li><a href="https://scratch.mit.edu/projects/217235156/" target="_blank">Paw Patrol</a></li>
+						<li><a href="https://scratch.mit.edu/projects/192452070/" target="_blank">Advent Calendar</li>
+					</ul>
+					<li><a href="https://github.com/manik1235?utf8=%E2%9C%93&tab=repositories&q=&type=&language=visual+basic" target="_blank">Visual Basic</a></li>
+					<ul>
+						<li><a href="#" target="_blank">Filename Changer</a></li>
+						<li><a href="#" target="_blank">Funhouse</a></li>
+						<li><a href="#" target="_blank">Adventure & Map Maker</li>
+						<li><a href="#" target="_blank">Clipboard Manager</li>
+					</ul>
+					<li><a href="https://github.com/manik1235?utf8=%E2%9C%93&tab=repositories&q=&type=&language=python" target="_blank">Python</a></li>
+					<ul>
+						<li><a href="https://github.com/manik1235/nm" target="_blank">nm</a></li>
+						<li><a href="#" target="_blank">Project2</a></li>
+						<li><a href="#" target="_blank">Project3</a></li>
+					</ul>
+					<li><a href="https://github.com/manik1235?utf8=%E2%9C%93&tab=repositories&q=&type=&language=javascript" target="_blank">Web</a></li>
+					<ul>
+						<li><a href="https://codepen.io/manik1235/" target="_blank">codepen.io</a></li>
+						<li><a href="https://github.com/manik1235/hk-needs" target="_blank">Family Budget and Savings</a></li>
+						<li><a href="#" target="_blank">Project3</a></li>
+					</ul>
 				</ul>
 			</div>
-			<div class="col-md-6">
-				<h3><li>Areas of interest:</li></h3>
-				<ul>
-					<li>Back-end development</li>
-					<li>Front-end development</li>
-					<li>Games for my kid</li>
-					<li>Automating repetative tasks</li>
-				</ul>
+
+				<a id="#a-contact"></a>
+				<div id="contact-me">
+					<h2>Contact Me</h2>
+					<form>
+						<input type="text" placeholder="Name" autocomplete="name">
+						<input type="text" placeholder="Email Address" autocomplete="email">
+						<input type="text" placeholder="Phone Number" autocomplete="tel">
+						<input type="text" placeholder="Message" autocomplete="off">
+					</form>
 			</div>
 		</div>
-		
 		<!-- Optional Javascript --> <!-- I'm not yet sure why it's optional... -->
 		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
