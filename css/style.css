@@ -1,23 +1,23 @@
 #header {
-  text-align: center;
-  font-size: 30px;
-  background-color: darkgrey;
-  color: white;
-  padding: 50px 30px 20px 30px
+	text-align: center;
+	font-size: 30px;
+	background-color: darkgrey;
+	color: white;
+	padding: 50px 30px 20px 30px
 }
 
 #header-image {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
+	max-width: 100%;
+	height: auto;
+	border-radius: 50%;
 }
 
 #languages-interests {
-  background-color: yellow;
+	background-color: yellow;
 }
 
 #portfolio-header {
-  text-align: center;
+	text-align: center;
 }
 
 .portfolio-subheader {
@@ -25,10 +25,17 @@
 }
 
 .portfolio-item {
-	width: 256px;
+	max-width: 256px;
 	height: auto;
 }
 
 .list-portfolio-item {
 	text-align: center;
+}
+
+#scratch-logo {
+	border: 2px solid blue;
+	border-radius: 25px;
+	width: 256px;
+	height: auto;
 }
