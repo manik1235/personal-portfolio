@@ -19,6 +19,7 @@
 
 .portfolio-subheader {
 	text-align: center;
+
 }
 
 .portfolio-item {
@@ -30,7 +31,7 @@
 	text-align: center;
 }
 
-#scratch-logo {
+.portfolio-subheader-title {
 	border: 2px solid blue;
 	border-radius: 25px;
 	width: 256px;
