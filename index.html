@@ -144,11 +144,12 @@
 				<a id="#a-contact"></a>
 				<div id="contact-me">
 					<h2>Contact Me</h2>
-					<form>
-						<input type="text" placeholder="Name" autocomplete="name">
-						<input type="text" placeholder="Email Address" autocomplete="email">
-						<input type="text" placeholder="Phone Number" autocomplete="tel">
-						<input type="text" placeholder="Message" autocomplete="off">
+					<form action="./scripts/submit.js">
+						<input type="text" placeholder="Name" autocomplete="name" name="full-name">
+						<input type="text" placeholder="Email Address" autocomplete="email" name="email">
+						<input type="text" placeholder="Phone Number" autocomplete="tel" name="phone-number">
+						<input type="text" placeholder="Message" autocomplete="off" name="message">
+						<input type="submit" value="Send me a message!">
 					</form>
 			</div>
 		</div>
