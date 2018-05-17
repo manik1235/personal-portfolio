@@ -141,16 +141,18 @@
 				<div class="col-md-3"></div>
 			</div>
 
-				<a id="#a-contact"></a>
-				<div id="contact-me">
-					<h2>Contact Me</h2>
-					<form action="./scripts/submit.js">
+			<a id="#a-contact"></a>
+			<div id="contact-me">
+				<form action="./scripts/submit.js" method="post">
+					<fieldset>
+						<legend>Contact Me</legend>
 						<input type="text" placeholder="Name" autocomplete="name" name="full-name">
 						<input type="text" placeholder="Email Address" autocomplete="email" name="email">
 						<input type="text" placeholder="Phone Number" autocomplete="tel" name="phone-number">
 						<input type="text" placeholder="Message" autocomplete="off" name="message">
 						<input type="submit" value="Send me a message!">
-					</form>
+					</fieldset>
+				</form>
 			</div>
 		</div>
 		<!-- Optional Javascript --> <!-- I'm not yet sure why it's optional... -->
